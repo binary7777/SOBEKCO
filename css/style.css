@@ -83,6 +83,10 @@ header{
   display: flex;
 }
 
+.logo .logo2 a{
+  text-decoration: none;
+}
+
 .logo .logo2 h3{
   font-family:"Primetime";
   margin-top:15px;

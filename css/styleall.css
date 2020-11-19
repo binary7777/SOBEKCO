@@ -1,0 +1,344 @@
+@font-face{
+    font-family: "Primetime";
+    src: url(../fonts/PRIMETIME.ttf);
+  }
+  
+  * {
+      margin: 0px;
+      padding:0px;
+      box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .contenedor {
+    padding:60px 0px;
+    width: 90%;
+    max-width:1000px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .titulo{
+    font-size:30px;
+    color:#0a92f5;
+    text-align: center;
+    margin-bottom:20px;
+  }
+  
+  /*__________HEADER________*/
+  
+  header{
+    width: 100%;
+    height:110px;
+    position: relative;
+    z-index: 100;
+  }
+  
+  .header1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.6s;
+    padding: 20px 100px;
+    z-index:1000;
+  }
+  
+  
+  .header1 .navbar .content i{
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .logo{
+    display: flex;
+  }
+  
+  .logo a{
+    font-size:30px;
+    color: #0a92f5;
+    text-decoration: none;
+  }
+  .logo .logo2 {
+    display: flex;
+  }
+  
+  .logo .logo2 a{
+    text-decoration: none;
+  }
+  
+  .logo .logo2 h3{
+    font-family:"Primetime";
+    margin-top:15px;
+  }
+   
+  .logo img{
+    position: relative;
+    letter-spacing: 2px;
+    transition: 0.6s;
+  
+  }
+  
+  
+  .header1 nav ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header1 nav ul li{
+    position: relative;
+    list-style: none;
+    margin-top: 15px;
+  }
+  
+  .header1 nav ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0a92f5;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+  }
+  
+  header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  header .textos-header h1 {
+    font-size:50px;
+    color: #fff;
+  }
+  header .textos-header h2{
+    font-size:25px;
+    color: #fff;
+    font-weight:300;
+  }
+
+  /*FOOTER*/
+
+  #gtco-footer {
+    padding-bottom: 20px;
+    padding-top:30px;
+    background-color: #414141;
+  }
+  #gtco-footer h4 {
+    font-family: "Lato-Medium";
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  #gtco-footer input, #gtco-footer textarea {
+    background-color: white;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 50px;
+    max-width: 450px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    color: #000;
+  }
+  #gtco-footer input::-webkit-input-placeholder, #gtco-footer input::-moz-placeholder, #gtco-footer input:-ms-input-placeholder, #gtco-footer input:-moz-placeholder, #gtco-footer textarea::-webkit-input-placeholder, #gtco-footer textarea::-moz-placeholder, #gtco-footer textarea:-ms-input-placeholder, #gtco-footer textarea:-moz-placeholder {
+    color: #999999;
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+  }
+  #gtco-footer textarea {
+    min-height: 200px;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+    resize: none;
+  }
+  #gtco-footer .company-nav, #gtco-footer .services-nav {
+    font-family: "OpenSans-Regular";
+    font-size: 20px;
+  }
+  #gtco-footer .company-nav a, #gtco-footer .services-nav a {
+    color: #666666;
+    margin: 0;
+    padding: 0;
+  }
+  #gtco-footer .follow-us-nav a {
+    padding: 0 10px;
+    color: #666666;
+  }
+  @media (max-width: 385px) {
+    #gtco-footer .follow-us-nav a {
+      padding-right: 0;
+    }
+  }
+  #gtco-footer .follow-us-nav a .fa {
+    font-size: 24px;
+  }
+  #gtco-footer .col-12 {
+    margin-top: 90px;
+  }
+  #gtco-footer .col-12 p {
+    font-family: "Lato-Regular";
+    font-size: 18px;
+    color: #999999;
+  }
+  @media (max-width: 991px) {
+    #gtco-footer .col-12 {
+      margin-top: 20px;
+    }
+  }
+  @media (max-width: 991px) {
+    #gtco-footer .col-lg-6 {
+      margin-bottom: 50px;
+    }
+  }
+  
+  i {
+    color: #fff;
+  }
+  
+  i:hover{
+    color: #0a92f5;
+  }
+  .submit-button i {
+    color: #999999;
+  }
+  
+  .submit-button i:hover{
+    color: white;
+  }
+  
+  .submit-button {
+    text-decoration: none;
+    background: #fff;
+    padding: 15px;
+    font: weight 50%;
+    color: #999999;
+    border-radius: 28px;
+  }
+  
+  .submit-button:hover{
+    text-decoration:none;
+    background: #0a92f5;
+    color: white;
+  }
+  
+  /*-------RESPONSIVE------*/
+  
+  @media screen and (max-width:900px){
+    header{
+      background-position: center;
+    }
+  
+    .contenedor-sobre-nosotros{
+      flex-direction: column;
+      justify-content:center ;
+      align-items: center;
+    }
+  
+    .sobre-nosotros .contenedor-texto{
+      width: 90%;
+    }
+  
+    .header1 {
+      justify-content: space-evenly;
+    }
+  
+    .imagen2{
+      width: 90%;
+    }
+  
+    .img-portafolio{
+      width:40%;
+    }
+  
+    .servicios-cont{
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .servicio-ind {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+      margin-bottom: 60px;
+    }
+  
+  /*--RESPONSIVE PRUEBA--*/
+    .content{
+      padding: 0 30px;
+    }
+  }
+  @media (max-width: 868px) {
+  
+    .header1 .navbar .content i{
+      color:#0a92f5;
+      display: block;
+      font-size:35px;
+    }
+  
+    .cancel-btn {
+      margin-left: 80%;
+    }
+  
+    .header1.sticky .navbar .content i{
+      color: #0a92f5;
+      display: block;
+    }
+  
+    body.disabled{
+      overflow: hidden;
+    }
+    .icon{
+      display: block;
+    }
+    .icon.hide{
+      display: none;
+    }
+    .navbar .menu{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      max-width: 400px;
+      left: -100%;
+      top: 0px;
+      display: block;
+      padding: 40px 0;
+      text-align: center;
+      background: #414141;
+      transition: all 0.3s ease;
+    }
+    .navbar.show .menu{
+      left: 0%;
+    }
+    .navbar .menu-list li{
+      margin-top: 45px;
+    }
+    .navbar .menu li a{
+      font-size: 23px;
+      margin-left: -100%;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .navbar.show .menu li a{
+      margin-left: 0px;
+    }
+  }
+  @media (max-width: 380px) {
+    .logo a{
+      font-size: 27px;
+    }
+  }
+  
